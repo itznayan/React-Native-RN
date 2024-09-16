@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "NikeApp",
-    "slug": "NikeApp",
+    "name": "Your App Name ",
+    "slug": "Your App Name",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,9 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
