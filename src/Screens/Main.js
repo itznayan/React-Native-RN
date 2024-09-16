@@ -2,11 +2,11 @@ import { View, Text } from "react-native";
 import React from "react";
 import Animated from "react-native-reanimated";
 
-export default function Home() {
+export default function Main() {
   return (
     <Animated.View
-      className="h-full w-full bg-black"
       sharedTransitionTag="1"
+      className="h-20 w-20 bg-black"
     ></Animated.View>
   );
 }
