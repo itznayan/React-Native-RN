@@ -1,12 +1,14 @@
-import { View, Text } from "react-native";
+import { View, Text, Pressable } from "react-native";
 import React from "react";
 import Animated from "react-native-reanimated";
 
-export default function Home() {
+export default function Home({ navigation }) {
   return (
-    <Animated.View
-      className="h-full w-full bg-black"
-      sharedTransitionTag="1"
-    ></Animated.View>
+    <Pressable onPress={() => navigation.navigate("Main")}>
+      <Animated.View
+        className="h-20 w-20 bg-black"
+        sharedTransitionTag="1"
+      ></Animated.View>
+    </Pressable>
   );
 }

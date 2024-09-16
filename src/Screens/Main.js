@@ -6,7 +6,7 @@ export default function Main() {
   return (
     <Animated.View
       sharedTransitionTag="1"
-      className="h-20 w-20 bg-black"
+      className="h-full w-full bg-black"
     ></Animated.View>
   );
 }
